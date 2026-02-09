@@ -11,12 +11,20 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="משימה לדוגמה"
+        android:text="Task Title"
         android:textSize="18sp" />
 
     <CheckBox
         android:id="@+id/cbDone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="12sp"
+        android:layout_marginStart="8dp"/>
 
 </LinearLayout>
